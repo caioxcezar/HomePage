@@ -42,10 +42,11 @@ img:hover {
 #search-img {
     background-image: url(pics/DuckDuckGo.svg);
     height: 55px;
-    width: 10%;
+    width: 5%;
     margin-top: 83px;
     position: absolute;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 
 
