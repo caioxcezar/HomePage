@@ -7,10 +7,12 @@ select.onchange = () => {
     switch (select.selectedIndex) {
         case 0:
             img.style.backgroundImage = "url('pics/DuckDuckGo.svg')"
+            input.name = "q"
             img.style.backgroundSize = "auto"
             break
         case 1:
             img.style.backgroundImage = "url('pics/Google.svg')"
+            input.name = "q"
             img.style.backgroundSize = "80%"
             break
         case 2:
